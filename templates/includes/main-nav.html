@@ -17,10 +17,10 @@
                 T20 World Cup
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="t20-link">
-                <a href="" class="dropdown-item">England Matches</a>
-                <a href="" class="dropdown-item">South Africa Matches</a>
-                <a href="" class="dropdown-item">Canada Matches</a>
-                <a href="" class="dropdown-item">All Matches</a>
+                <a href="{% url 'products' %}?category=england" class="dropdown-item">England Matches</a>
+                <a href="{% url 'products' %}?category=africa" class="dropdown-item">South Africa Matches</a>
+                <a href="{% url 'products' %}?category=canada" class="dropdown-item">Canada Matches</a>
+                <a href="{% url 'products' %}" class="dropdown-item">All Matches</a>
             </div>
         </li>
 
@@ -29,9 +29,9 @@
                 Test Matches
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="tests-link">
-                <a href="" class="dropdown-item">England Tests</a>
-                <a href="" class="dropdown-item">South Africa Tests</a>
-                <a href="" class="dropdown-item">All Tests</a>
+                <a href="{% url 'products' %}?category=england" class="dropdown-item">England Tests</a>
+                <a href="{% url 'products' %}?category=africa" class="dropdown-item">South Africa Tests</a>
+                <a href="{% url 'products' %}?category=test" class="dropdown-item">All Tests</a>
             </div>
         </li>
 
@@ -40,10 +40,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=all" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
