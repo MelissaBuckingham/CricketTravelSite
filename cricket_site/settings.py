@@ -29,6 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['https://traveling-wickets-1ffde70add78.herokuapp.com', 'localhost']
 
 
+
 # Application definition
 
 INSTALLED_APPS = [
