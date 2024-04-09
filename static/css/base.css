@@ -5,6 +5,7 @@ html {
 body {
     background: url('/media/uk-2902050_1280.jpg') no-repeat center center fixed;
     background-size: cover;
+    background-color: rgb(243, 136, 177);
     height: calc(100vh - 164px);
     color: rgb(240, 13, 89);
     font-family: 'Times New Roman', Times, serif;
