@@ -6,7 +6,7 @@ body {
     background: url('/media/uk-2902050_1280.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: black;
+    color: rgb(240, 13, 89);
     font-family: 'Times New Roman', Times, serif;
 }
 
