@@ -117,21 +117,19 @@ input[name='q']::placeholder {
 }
 
 #cover-text {
-    font-size: 160%;
-    font-family: Oswald;
-    text-transform: uppercase;
+    font-size: 100%;
     letter-spacing: 3px;
 
-    width: 250px;
+    width: 550px;
     height: 270px;
 
-    padding-top: 40px;
-    padding-left: 10px;
+    padding-top: 0px;
+    padding-left: 0px;
 
     background-color: rgba(195, 134, 196, .7);
 
-    bottom: 30px;
-    right: 150px;
+    bottom: 0px;
+    right: 0px;
 
     position: absolute;
 
