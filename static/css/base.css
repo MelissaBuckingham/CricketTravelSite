@@ -29,7 +29,7 @@ body {
 }
 
 .shop-now-button {
-    background: black;
+    background: rgb(22, 110, 4);
     color: white;
     min-width: 260px;
 }
@@ -80,7 +80,7 @@ body {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: white;
+	background: rgb(241, 233, 239);
 	z-index: -1;
 }
 
@@ -116,8 +116,8 @@ input[name='q']::placeholder {
     font-size: 50%;
     letter-spacing: 1px;
 
-    width: 550px;
-    height: 270px;
+    width: 950px;
+    height: 120px;
 
     padding-top: 0px;
     padding-left: 0px;
