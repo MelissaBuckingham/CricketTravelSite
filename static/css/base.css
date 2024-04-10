@@ -124,7 +124,7 @@ input[name='q']::placeholder {
 
     background-color: rgba(134, 196, 165, 0.329);
 
-    bottom: 0px;
+    bottom: 50px;
     right: 0px;
 
     position: absolute;
