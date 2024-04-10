@@ -109,16 +109,12 @@ input[name='q']::placeholder {
 
 #cover-text,
 #cover-text h2 {
-    color: #ffffff;
-}
-
-#cover-text h3 {
-    color: #4974a5;
+    color: #025a09;
 }
 
 #cover-text {
-    font-size: 100%;
-    letter-spacing: 3px;
+    font-size: 50%;
+    letter-spacing: 1px;
 
     width: 550px;
     height: 270px;
@@ -126,7 +122,7 @@ input[name='q']::placeholder {
     padding-top: 0px;
     padding-left: 0px;
 
-    background-color: rgba(195, 134, 196, .7);
+    background-color: rgba(134, 196, 165, 0.329);
 
     bottom: 0px;
     right: 0px;
