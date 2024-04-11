@@ -5,7 +5,7 @@ html {
 body {
     background: url('/media/uk-2902050_1280.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-color: rgb(243, 136, 177);
+    background-color: rgb(183, 228, 205);
     height: calc(100vh - 164px);
     color: rgb(61, 4, 23);
     font-family: 'Times New Roman', Times, serif;
@@ -80,7 +80,7 @@ body {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: rgb(241, 233, 239);
+	background: rgb(202, 248, 212);
 	z-index: -1;
 }
 
@@ -108,7 +108,7 @@ input[name='q']::placeholder {
 }
 
 .cover-text {
-    background-color: rgba(134, 196, 165, 0.329);
+    background-color: rgba(134, 196, 165, 0.603);
 }
 
 
