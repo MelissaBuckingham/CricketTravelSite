@@ -74,6 +74,14 @@ body {
     background: #000 !important;
 }
 
+.bg-green {
+    background: rgb(202, 248, 212) !important;
+}
+
+.bg-white {
+    background: rgb(233, 248, 232) !important;
+}
+
 .overlay {
 	height: 100%;
 	width: 100%;
