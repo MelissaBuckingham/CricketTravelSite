@@ -107,12 +107,12 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
-#cover-text,
-#cover-text h2 {
+.cover-text,
+.cover-text h2 {
     color: #025a09;
 }
 
-#cover-text {
+.cover-text {
     font-size: 220%;
     letter-spacing: 1px;
 
