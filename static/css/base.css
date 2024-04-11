@@ -196,6 +196,9 @@ input[name='q']::placeholder {
   .container {
     max-width: 80%;
   }
+  .cover-text {
+    font-size: 20px;
+  }
 }
 
 /* Allauth form formatting */
