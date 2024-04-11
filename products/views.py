@@ -6,6 +6,8 @@ from django.db.models.functions import Lower
 from .models import Product, Category
 from .forms import ProductForm
 
+import tkinter as tk
+
 # Create your views here.
 
 def all_products(request):
@@ -127,7 +129,13 @@ def delete_product(request, product_id):
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
+    deletesure = tk.Toplevel()
     product = get_object_or_404(Product, pk=product_id)
-    product.delete()
+    areyousure = tk.Label(deletesure, text="Are you sure you want to DELETE this item?")
+    areyousure.grid(column=0, row=0)
+    ExitYes = tk.Button(deletesure, text="Yes", command=product.delete())
+    ExitYes.grid(column=0, row=2)
+    NoYes = tk.Button(deletesure, text="No", command=deletesure.destroy)
+    NoYes.grid(column=2, row=2)
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
