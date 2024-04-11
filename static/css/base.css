@@ -193,13 +193,16 @@ input[name='q']::placeholder {
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-  .cover-text {
-    font-size: 20px;
-    padding-top: 40px;
-  }
+    .container {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover-text {
+        font-size: 20px;
+        padding-top: 40px;
+    }
 }
 
 /* Allauth form formatting */
