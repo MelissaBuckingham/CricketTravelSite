@@ -107,28 +107,8 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
-.cover-text,
-.cover-text h2 {
-    color: #025a09;
-}
-
 .cover-text {
-    font-size: 220%;
-    letter-spacing: 1px;
-
-    width: 150px;
-    height: 120px;
-
-    padding-top: 0px;
-    padding-left: 0px;
-
     background-color: rgba(134, 196, 165, 0.329);
-
-    bottom: 0px;
-    right: 0px;
-
-    position: absolute;
-
 }
 
 
