@@ -44,6 +44,8 @@ Jigsaw CSS Validation
 ![Screenshots of the Jigsaw test of CSS](images/jigsawValidation.jpg "Jigsaw Validation CSS")
 No issues found at all.
 
+I spent a lot of time trying to create a popup that confirms whether the user really wants to delete an item or not. I was doing it just on the products.html file, and testing on the product-detail page, so I couldn't work out why it wasn't working. I eventually realised that all I needed to do was add the code to product_detail.html. Problem solved!
+
 ## Deployment
 My site was deployed on Heroku at https://fantasy-database-93b7701d6f44.herokuapp.com/
 
@@ -54,4 +56,8 @@ Debug set to False for deployment.
 
 ## Credits
 I used the Beutique Ado walkthrough project as an inspiration
+
+I gained a lot of assistence from stack overflow and Slack for how to create the delete confirmation pop-up.
+
+
 
