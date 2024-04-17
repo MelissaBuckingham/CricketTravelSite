@@ -56,7 +56,7 @@ I spent a lot of time trying to create a popup that confirms whether the user re
 ## Deployment
 My site was deployed on Heroku at https://fantasy-database-93b7701d6f44.herokuapp.com/
 
-Help received from ElephantSQL.
+Data Stored on ElephantSQL, buckets on AWS.
 
 Debug set to False for deployment.
 
