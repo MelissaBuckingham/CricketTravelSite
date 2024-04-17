@@ -12,6 +12,13 @@ I wanted to make the user experience as easy to use but at the same time making 
 
 I created a number of HTML files, all of which are extending from the base.html templete, in order that the finished project will be very interactive and fun to use.
 
+The Django database allows for the creation, reading, updating and deletion of Categories and citiProductses. the Products are grouped according to their respective Categories.
+
+The data schema is arranged in such a way so that a user can add a Category, but also they can add a Product that can be placed within a Category in order to keep the data tidy and searchable.
+
+USER STORIES
+
+![Screenshots of User Stories](images/UserStories "User Stories")
 
 WireFrame
 
