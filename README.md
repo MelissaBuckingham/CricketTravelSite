@@ -18,11 +18,11 @@ The data schema is arranged in such a way so that a user can add a Category, but
 
 USER STORIES
 
-![Screenshots of User Stories](images/UserStories.png "User Stories")
+![Screenshots of User Stories](/media/UserStories.png "User Stories")
 
 WireFrame
 
-![Screenshots of the Wireframe](images/WireFrame.png "Wireframe")
+![Screenshots of the Wireframe](/media/WireFrame.png "Wireframe")
 
 
 ## Database Schema
