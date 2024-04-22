@@ -18,13 +18,22 @@ The data schema is arranged in such a way so that a user can add a Category, but
 
 USER STORIES
 
-![Screenshots of User Stories](images/UserStories "User Stories")
+![Screenshots of User Stories](images/UserStories.png "User Stories")
 
 WireFrame
 
-![Screenshots of the Wireframe](images/Wireframe.png "Wireframe")
+![Screenshots of the Wireframe](images/WireFrame.png "Wireframe")
 
 
+## Database Schema
+
+I built the database using Django, in which, a data schema refers to the structure that defines how data is organized within the application. Here’s a brief overview:
+
+Database Configuration: The schema includes settings for the database engine, name, user, and password, which are specified in the DATABASES setting in settings.py.
+
+Models and Fields: Django models represent tables in the database, and each model field represents a column in the table. The schema is defined by the models and their fields.
+
+Migrations: Django uses migrations to manage changes to the schema over time. Migrations are generated when changes are made to the models and are applied to update the database schema.
 
 
 ## Bugs and Testing
@@ -33,13 +42,7 @@ I Manually tested Traveling Wickets every step of the way, using the web preview
 
 I had an issue early on, when I couldn't copy the allauth files, because they had been added to a different directory than what I was expecting. Using the search function on the terminal, with the assistance of lovely people on Slack, I soon found the correct directory, and was happy coding again!
 
-I have checked that all links are working correctly and there are no issues.
-
-JS Lint
-
-Below is the result on JS Lint when I enter the JS Code:
-![Screenshots of the JS Lint test of site JavaScript](images/JsLint.jpg "JS Lint")
-
+I have checked that all links are working correctly and there are no issues.)
 
 I have used a mixture of manual testing and automated testing in the creation of this ecommerce website, the automated testing makes sure that it is in line with accepted standards, and the manual testing makes sure that it is comfortable for the user to use and has the correct level of interactivity.
 
